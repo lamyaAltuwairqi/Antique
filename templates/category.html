@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{%block title%}
+Contact Us
+{%endblock%}
+
+{%block body%}
+<div class="cont">
+
+    {%for i in category%}
+    <div class="card box">
+        <img class="card-img-top" src="{{i.picture.url}}">
+        <div class="card-body">
+            <p class="card-text"><a href="{% url 'catdetail' i.id%}">{{i.name}}</a></p>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+
+
+{%endblock%}

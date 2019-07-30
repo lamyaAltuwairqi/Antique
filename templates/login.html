@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{%block title%}
+    Log In
+{%endblock%}
+
+{%block body%}
+    <h1>Log In</h1>
+    {%if messages%}
+    <div class="msg">
+        {%for i in messages%}
+            <p>{{i}}</p>
+        {%endfor%}
+    </div>
+    {%endif%}
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Log In" class="btn">
+
+    </form>
+    <p>you don't have an account?</p>
+    <a href="{% url 'register' %}">sign up</a>
+{%endblock%}
