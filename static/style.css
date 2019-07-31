@@ -3,28 +3,51 @@
 }
 
 .navbar{
-    background-color: #6d635d;
+    background-color: #322c28;
     overflow: hidden;
 }
 body {
     margin: 0;
     background-color: #544a44;
 }
-.container {
-    background-image: url('images/bg.png');
+.cont1 {
+    background-image: url('images/how-to-store-antiques.jpg');
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+    padding: 20px;
 }
-.carousel-inner {
-    margin: 20px;
-    height: 300px;
+.contact {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.contact h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact a {
+    color: whitesmoke;
+}
+
+.card-title {
+    text-align: center;
+    color: #544a44;
 
 }
+.card-title a{
+    color: #322c28;
+}
+
 .navbar h1{
     margin-left: 30px;
     color: #d3d0ce;
     float: left;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 70px;
+    font-size: 50px;
 
 }
 ul {
@@ -35,7 +58,17 @@ ul {
 }
 
 .cont {
-    float: left;
+    width: 85%;
+    background-color: #d3d0ce82;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 20px;
+}
+#cont {
+    width: 80%;
+    background-color: #d3d0ce82;
+    margin: 0 auto;
+    height: 1300px;
 }
 li {
     list-style: none;
@@ -48,18 +81,160 @@ li a{
     text-decoration: none;
     color: #d3d0ce;
 }
+.slide, .carousel-inner, .carousel-img{
+    height: 400px;
+    margin: 10px 20px 20px 5px;
+    border-radius: 20px;
+    
+}
+
 
 .footer {
-    background-color: #6d635d;
+    background-color: #322c28;
     color: #d3d0ce;
-    height: 30px;
+    height: 60px;
     text-align: center;
     width: 100%;
+    padding-top: 10px
 }
 label {
     display: block;
 }
 
-.box {
-    width: 30%;
+
+.card {
+    margin: 20px;
+
+}
+
+.home {
+    padding: 30px;
+}
+
+span {
+    font-size: 40px;
+    color: #544a44;
+}
+.about {
+    width: 70%;
+    height: 350px;
+    background-color: #d3d0ce5a;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+
+#login label {
+    display: block;
+    font-size: 20px;
+}
+#login {
+    padding: 30px;
+    text-align: center;
+}
+#login h1 {
+    margin-bottom: 50px;
+    color: #322c28;
+    font-size: 70px
+}
+#login input {
+    width: 400px;
+}
+#login .btn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #322c28;
+    color: #d3d0ce;
+    background-color: #322c28;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#login p a{
+    font-size: 20px;
+    color: #322c28;
+}
+#login p {
+    font-size: 20px;
+    color: #322c28;
+}
+
+h1 {
+    color: #322c28;
+}
+
+#login2 label {
+    display: block;
+    font-size: 20px;
+}
+#login2 {
+    padding: 30px;
+    text-align: center;
+    height: 700px;
+}
+#login2 h1 {
+    margin-bottom: 50px;
+    color: #322c28;
+    font-size: 70px
+}
+#login2 input {
+    width: 400px;
+}
+#login2 .btn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #322c28;
+    color: #d3d0ce;
+    background-color: #322c28;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#login2 p a{
+    font-size: 20px;
+    color: #322c28;
+}
+#login2 p {
+    font-size: 20px;
+    color: #322c28;
+}
+
+
+
+
+#add label {
+    display: block;
+    font-size: 20px;
+}
+#add {
+    padding: 30px;
+    text-align: center;
+    height: 1200px;
+}
+#add h1 {
+    margin-bottom: 50px;
+    color: #322c28;
+    font-size: 70px
+}
+#add input {
+    width: 400px;
+}
+#add .btn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #322c28;
+    color: #d3d0ce;
+    background-color: #322c28;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#add p a{
+    font-size: 20px;
+    color: #322c28;
+}
+#add p {
+    font-size: 20px;
+    color: #322c28;
 }

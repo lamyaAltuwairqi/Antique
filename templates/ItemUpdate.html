@@ -4,9 +4,12 @@
 {%endblock%}
 
 {%block body%}
-    <form action="" method="POST">
-        {% csrf_token %}
-        {{form.as_p}}
-        <input type="submit" value="Submit">
-    </form>
+<div class="cont">
+        <form action="" method="POST">
+                {% csrf_token %}
+                {{form.as_p}}
+                <input type="submit" value="Submit">
+            </form>
+</div>
+    
 {%endblock%}

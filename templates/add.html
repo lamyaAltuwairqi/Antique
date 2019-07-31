@@ -4,10 +4,13 @@
 {%endblock%}
 
 {%block body%}
-    <h1>Add Item</h1>
-    <form action="" method="POST" enctype="multipart/form-data">
-        {% csrf_token%}
-        {{form.as_p}}
-        <input type="submit" value="Add Item">
-    </form>
+<div class="cont" id="add">
+        <h1>Add Item</h1>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token%}
+            {{form.as_p}}
+            <input type="submit" value="Add Item" class="btn">
+        </form>
+</div>
+    
 {%endblock%}

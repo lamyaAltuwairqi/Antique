@@ -4,17 +4,26 @@ Contact Us
 {%endblock%}
 
 {%block body%}
-<div class="cont">
 
-    {%for i in category%}
-    <div class="card box">
-        <img class="card-img-top" src="{{i.picture.url}}">
-        <div class="card-body">
-            <p class="card-text"><a href="{% url 'catdetail' i.id%}">{{i.name}}</a></p>
-        </div>
+
+    
+    <div class="cont" id="cont">
+
+    <div class="row">
+            {%for i in category%}
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top" src="{{i.picture.url}}" width="200px" height="200px">
+                    <h5 class="card-title"><a href="{% url 'catdetail' i.id%}">{{i.name}}</a></h5>
+                </div>
+              </div>
+            </div>
+            {%endfor%}
     </div>
-    {%endfor%}
 </div>
+
+    
 
 
 {%endblock%}

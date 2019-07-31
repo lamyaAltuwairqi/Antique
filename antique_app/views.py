@@ -51,7 +51,7 @@ def register(request):
             profile = profileForm.save(commit=False)
             profile.user = user
             profile.save()
-            return HttpResponseRedirect(reverse('home'))
+            return HttpResponseRedirect(reverse('login'))
     data = {'userForm':userForm, 'profileForm':profileForm}
     return render (request, 'register.html', data)
     

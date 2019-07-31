@@ -8,10 +8,15 @@ class UserForm(forms.ModelForm):
         model = User
         fields = ['username','email','password']
 
+        help_texts = {
+            'username': None
+        }
+
 class ProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ['mobile']
+        
 
 
 class LoginForm(forms.Form):
