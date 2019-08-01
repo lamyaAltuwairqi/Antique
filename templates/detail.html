@@ -4,17 +4,17 @@
 {%endblock%}
 
 {%block body%}
-<div class="cont">
+<div class="cont" id="detail">
         <h1>Item Detail</h1>
         <img src="{{item.image.url}}" width="300px" height="300px">
-        <p>Name: {{item.name}}</p>
-        <p>Category: {{item.category}}</p>
-        <p>Details: {{item.details}}</p>
-        <p>E-mail: {{item.email}}</p>
-        <p>Phone: {{item.phone}}</p>
+        <p class="first"><b>Name:</b>  {{item.name}}</p>
+        <p><b>Category:</b>  {{item.category}}</p>
+        <p><b>Details:</b>  {{item.details}}</p>
+        <p><b>E-mail:</b>  {{item.email}}</p>
+        <p><b>Phone:</b>  {{item.phone}}</p>
         {% if owner %}
-             <a href="{% url 'delete_item' item.pk %}">Delete Item</a>
-             <a href="{% url 'updateitem' item.pk %}"> Update Item</a>
+             <a href="{% url 'delete_item' item.pk %}"><b>Delete Item</b> </a>
+             <a href="{% url 'updateitem' item.pk %}"><b>Update Item</b> </a>
         {% endif %}
         
 </div>

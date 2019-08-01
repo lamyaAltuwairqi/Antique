@@ -42,12 +42,13 @@ body {
     color: #322c28;
 }
 
-.navbar h1{
+.navbar h1 a{
     margin-left: 30px;
     color: #d3d0ce;
     float: left;
     font-family: 'Shadows Into Light', cursive;
     font-size: 50px;
+    text-decoration: none;
 
 }
 ul {
@@ -238,3 +239,50 @@ h1 {
     font-size: 20px;
     color: #322c28;
 }
+
+
+#detail {
+    text-align: center;
+    height: 800px;
+}
+#detail h1{
+    font-size: 50px;
+    padding: 30px;
+    
+}
+#detail .first{
+    padding-top: 30px;
+}
+#detail a {
+    color: #322c28;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#detail p {
+    color: #322c28;
+    font-size: 20px;
+}
+
+
+
+
+#cat {
+    text-align: center;
+    height: 800px;
+}
+#cat h1{
+    font-size: 50px;
+    padding: 30px;
+    
+}
+
+#cat a {
+    color: #322c28;
+    
+}
+#cat p {
+    color: #322c28;
+    font-size: 20px;
+}
+
+
